@@ -20,4 +20,10 @@ def Randomness():
 	
 Randomness()
 
+def Shai(name):
+	if name == "Shai":
+		print "Isn't your last name Kaplan?"
+
+name = raw_input("Enter your first name: ")
+Shai(name)
 
